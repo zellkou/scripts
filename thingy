@@ -1,0 +1,6 @@
+for i in *.zip;
+    do dir="${i%.*}"
+    mkdir $dir
+    mv $i $dir
+    unzip $dir/$i -d $dir
+done
