@@ -1,0 +1,32 @@
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Bio-Pics/ /Backup/Bio-Pics &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Classics/ /Backup/Classics &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Documentaries/ /Backup/Documentaries &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Fantasy/ /Backup/Fantasy &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Harry-Potter/ /Backup/Harry-Potter &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Movies/ /Backup/Movies &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Musicals/ /Backup/Musicals &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Superhero/ /Backup/Superhero &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/SciFi/ /Backup/SciFi &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Star-Wars/ /Backup/Star-Wars &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/War/ /Backup/War &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Westerns/ /Backup/Westerns &&
+    rsync -ruipog --delete --ignore-existing /plex/TV/TVShows/ /Backup/TVShows &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/Anime/ /Backup/Anime &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/AnimeTV/ /Backup/AnimeTV &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/Cartoons/ /Backup/Cartoons &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/CartoonTV/ /Backup/CartoonTV &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/DC/ /Backup/DC &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/Scooby-Doo/ /Backup/Scooby-Doo &&
+    rsync -ruipog --delete --ignore-existing /plex/Animated/Scooby-Doo-TV/ /Backup/Scooby-Doo-TV &&
+    rsync -ruipog --delete --ignore-existing /plex/Other/Adult/ /Backup/Adult &&
+    rsync -ruipog --delete --ignore-existing /plex/Other/audiobooks/ /Backup/audiobooks &&
+    rsync -ruipog --delete --ignore-existing /plex/Other/asmr/ /Backup/asmr &&
+    rsync -ruipog --delete --ignore-existing /plex/Other/books/ /Backup/books &&
+    rsync -ruipog --delete --ignore-existing /plex/Other/Libraries/ /Backup/Libraries &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Cop/ /Backup/Cop &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Crime/ /Backup/Crime &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Horror/ /Backup/Horror &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Foreign/ /Backup/Foreign &&
+    rsync -ruipog --delete --ignore-existing /plex/Movies/Spy/ /Backup/Spy &&
+    rsync -ruipog --delete --ignore-existing /plex/Other/Music/ /Backup/Music
+
