@@ -17,8 +17,9 @@ for i in $b;
      else
         echo $i;
         docker restart $b &>> ~/docker.update.log;
-        docker image prune -f &>> ~/docker.update.log;
      fi
 done
+
+docker image prune -f &>> ~/docker.update.log;
 
 exit 0
