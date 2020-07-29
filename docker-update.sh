@@ -21,3 +21,4 @@ for i in $b;
      fi
 done
 
+exit 0
