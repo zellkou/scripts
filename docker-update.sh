@@ -6,8 +6,8 @@ for i in $a;
   do if [[ $i == REPOSITORY ]];
         then echo "repository";
      else
-        echo $i;
-        docker pull $i &>> ~/docker.update.log;
+        echo "$i";
+        docker pull "$i" &>> ~/docker.update.log;
      fi
 done
 
@@ -15,8 +15,8 @@ for i in $b;
   do if [[ $i == CONTAINER ]];
         then echo "container";
      else
-        echo $i;
-        docker restart $b &>> ~/docker.update.log;
+        echo "$i";
+        docker restart "$b" &>> ~/docker.update.log;
      fi
 done
 

@@ -1,10 +1,11 @@
+#!/bin/bash
 echo Input file name
-read video
+read -r video
 
 #fps = 'ffmpeg -i $video 2>&1 | sed -n "s/.*, \(.*\) fp.*/\1/p"'
-f = 25
-vf = $video$f
-fps1 = eval $fps
+f=25
+vf=$video$f
+fps1="$(eval $fps)"
 
 
 mkdir $vf
